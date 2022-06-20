@@ -84,12 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				5B01894F2860F8B5004508D3 /* Launch Screen.storyboard */,
-				5B018949285D026E004508D3 /* AlertView.swift */,
 				5B4A6F8D28271A7C00132579 /* ExpensesAppApp.swift */,
-				5B4A6F8F28271A7C00132579 /* ContentView.swift */,
-				5BD520382851FB20009A0954 /* ExpansesView.swift */,
-				5BD5203A2851FC8B009A0954 /* ExpansesRow.swift */,
-				5B4A6F9E28272A4200132579 /* AddView.swift */,
+				5B79F3482861026D0092C7DE /* Views */,
 				5B4A6F9D2827201000132579 /* Model */,
 				5B0EC0D1284FF5C50048D336 /* Servises */,
 				5B4A6F9128271A7D00132579 /* Assets.xcassets */,
@@ -114,6 +110,18 @@
 				5B0EC0CF284FF4ED0048D336 /* ExpensesItemRealm.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5B79F3482861026D0092C7DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B4A6F8F28271A7C00132579 /* ContentView.swift */,
+				5BD5203A2851FC8B009A0954 /* ExpansesRow.swift */,
+				5B4A6F9E28272A4200132579 /* AddView.swift */,
+				5B018949285D026E004508D3 /* AlertView.swift */,
+				5BD520382851FB20009A0954 /* ExpansesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

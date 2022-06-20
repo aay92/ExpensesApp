@@ -32,7 +32,6 @@ struct ContentView: View {
     @State private var percentageBlue: Double = 0.0
     @State private var percentageRed: Double = 0.0
     
-    
     @State var allPersanalExpenses: Int = 0
     
     @State var isOn: Bool = false

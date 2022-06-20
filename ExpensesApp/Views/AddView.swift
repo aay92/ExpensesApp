@@ -27,9 +27,6 @@ struct AddView: View {
     @State private var amount = ""
     @State private var flag : Bool = false
     
-//    @Binding var amountUsers: Int
-//    @Binding var amountBusiness: Int
-    
     let types = ["Рабочие","Личные"]
     
     var body: some View {
